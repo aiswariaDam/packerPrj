@@ -2,7 +2,7 @@
 "builders": [
     {
       "ami_name": "ion-packer-{{timestamp}}",
-      "instance_type": "t2.micro",
+      "instance_type": "t2.small",
       "region":"us-east-2",
       "source_ami": "ami-03b47d2d727e13114",
       "ssh_username": "ubuntu",
